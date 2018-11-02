@@ -1,0 +1,108 @@
+body {
+        background: url('assets/fabric_plaid.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+/* MAIN NAVIGATION ITEMS */
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+nav {
+    background:url('assets/fabric_plaid.png');
+    display: flex;
+    padding: 15px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav a {
+    text-decoration: none;
+    display: flex;
+    padding: 20px;
+    color:rgb(124, 124, 124);
+}
+
+@media screen and (min-width: 150px) {
+   nav ul {
+        display: flex;      
+   }
+}
+ol {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    justify-content: flex-end;
+}
+ol img {
+    width: 25px;
+    margin: 5px;
+    position: relative;
+    bottom: 80px;
+}
+/* CENTER IMAGE ITEMS */
+.MainImage {
+    width: 100%;
+    margin: 0 auto;
+
+}
+.Image {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.Image img {
+    width: 850px;
+    height: 380px;
+    border: solid 10px white;
+}
+.MainImageText {
+   width: 100%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+
+}
+.MainImageText p {
+    background: rgba(0, 0, 0, 0.3);
+    text-align: right;
+    color: white;
+    padding: 15px;
+    width: 820px;
+    position: relative;
+    bottom: 125px;
+}
+.Arrows{
+    display: flex;
+    justify-content: center;
+}
+.Arrows img {
+    width: 50px;
+    height: 50px;
+    justify-content: space-between;
+    padding: 0 400px 0 400px;
+    position: relative;
+    bottom: 230px;
+}
+
+/* 12 IMAGES FLEX ITEMS */
+.GroupImages {
+    width: 100%;
+    margin: 0 auto;
+}
+.Group {
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.Group img {
+    width: auto;
+    max-width: 400px;
+    height: auto;
+    max-height: 350px;
+    padding: 15px;
+    margin: 10px;
+}
