@@ -1,6 +1,10 @@
+html, body {
+    height: 100%;
+}
+
 body {
         background: url('assets/fabric_plaid.png');
-        background-repeat: no-repeat;
+        background-repeat: repeat;
         background-size: cover;
         height: 100vh;
     }
@@ -21,7 +25,7 @@ nav ul {
 nav a {
     text-decoration: none;
     display: flex;
-    padding: 20px;
+    padding: 10px 20px 10px 30px;
     color:rgb(124, 124, 124);
 }
 
@@ -30,6 +34,7 @@ nav a {
         display: flex;      
    }
 }
+
 ol {
     display: flex;
     list-style-type: none;
@@ -42,21 +47,19 @@ ol img {
     position: relative;
     bottom: 80px;
 }
+
 /* CENTER IMAGE ITEMS */
 .MainImage {
     width: 100%;
     margin: 0 auto;
-
 }
 .Image {
     display: flex;
     justify-content: center;
-    
-
 }
 .Image img {
     width: 850px;
-    height: 380px;
+    height: 480px;
     border: solid 10px white;
 }
 .MainImageText {
@@ -64,7 +67,6 @@ ol img {
    margin: 0 auto;
    display: flex;
    justify-content: center;
-
 }
 .MainImageText p {
     background: rgba(0, 0, 0, 0.3);
@@ -87,6 +89,15 @@ ol img {
     position: relative;
     bottom: 230px;
 }
+/* SUBHEAD INFO */
+.SubheadText {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 60px;
+}
 
 /* 12 IMAGES FLEX ITEMS */
 .GroupImages {
@@ -99,10 +110,101 @@ ol img {
     flex-wrap:wrap;
 }
 .Group img {
-    width: auto;
-    max-width: 400px;
-    height: auto;
-    max-height: 350px;
+    width: 300px;
+    height: 250px;
     padding: 15px;
     margin: 10px;
 }
+/* VIEW MORE BUTTON AND TWITTER FOOTER ITEMS */
+.ViewMoreButton {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+  
+}
+.ViewMoreButton p {
+    border: solid 3px #B4B4AC;
+    background: #B4B4AC;
+    color: white;
+    padding: 15px 80px 15px 80px;
+}
+
+.TweetBar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.TweetBar ul {
+    margin: 0;
+    background: #666666;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.TweetBar li {
+    text-decoration: none;
+    padding: 20px 10px 10px 10px; 
+    color:white;
+
+}
+.TweetBar img {
+    width: 30px;
+    max-height: 25px;
+    height: auto;
+}
+
+/* MAIN FOOTER */
+footer {
+    width: 100%;
+}
+
+.footer-container {
+    background: #B4B4AC;
+    width: 100%;
+}
+
+.footer-main {
+    width: 95%;
+    margin: auto;
+    padding: 20px 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-main .footer-columna {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 10px 10px;
+}
+
+.footer-main .footer-columnc {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0px 10px 10px;
+}
+
+.footer-columna p {
+    padding: 5px 10px 5px 20px;
+}
+
+
+.footer-main .footer-columnb {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 10px 10px 70px;
+}
+
+.footer-columna img {
+    width: 80px;
+    height: 50px;
+}
+
+.footer-columnb img {
+    width: 120px;
+    height: 70px;
+}
+
